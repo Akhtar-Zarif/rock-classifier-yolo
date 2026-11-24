@@ -24,7 +24,7 @@ rock-classifier-yolo/
 1. **Clone the repository and create a virtual environment:**
 
    ```bash
-   git clone https://github.com/<your-username>/rock-classifier-yolo.git
+   git clone https://github.com/Akhtar-Zarif/rock-classifier-yolo.git
    cd rock-classifier-yolo
    python -m venv .venv
    ```
@@ -54,7 +54,8 @@ rock-classifier-yolo/
 ## Command-Line Inference
 
 ```bash
-python predict_image.py path	oock_sample.jpg --top-k 5
+python predict_image.py path	o
+ock_sample.jpg --top-k 5
 ```
 
 ## Training & Dataset Notes
