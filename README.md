@@ -19,6 +19,18 @@ rock-classifier-yolo/
 └── README.md
 ```
 
+## Dataset
+
+The custom dataset used to train the YOLOv11n-cls model (394 images across 42 rock classes spanning igneous, metamorphic, and sedimentary rocks) is hosted on Hugging Face:
+
+- **Hugging Face Dataset:** [`zarifbinakhtar/rocks-classification-42`](https://huggingface.co/datasets/zarifbinakhtar/rocks-classification-42)
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("zarifbinakhtar/rocks-classification-42")
+print(ds)
+
 ## Quick Start (Photo Upload Web App)
 
 1. **Clone the repository and create a virtual environment:**
